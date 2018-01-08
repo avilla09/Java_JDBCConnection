@@ -2,14 +2,10 @@ package sample;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
-
-
-public class Connects {
-
-    private static Connection theConnection = null;
+import java.sql.SQLEx
+    private static Cotion theConnection = null;
     private static String URL = "jdbc:mysql://localhost/mydbase";
-    private static String USERNAME = "root";
+    private static StUSERNAME = "root";
     private static String PASSWORD = "root";
 
     private Connects() {
